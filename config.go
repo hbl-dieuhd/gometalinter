@@ -129,7 +129,7 @@ var config = &Config{
 	Enable:          defaultEnabled(),
 	VendoredLinters: true,
 	Concurrency:     runtime.NumCPU(),
-	Cyclo:           10,
+	Cyclo:           30,
 	LineLength:      80,
 	MisspellLocale:  "",
 	MinConfidence:   0.8,
